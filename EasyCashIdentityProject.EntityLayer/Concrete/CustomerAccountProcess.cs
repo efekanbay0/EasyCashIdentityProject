@@ -14,3 +14,6 @@ namespace EasyCashIdentityProject.EntityLayer.Concrete
         public DateTime ProcessDate { get; set; }
     }
 }
+/*
+ ID- Islem Turu(gelen, giden, odeme) - miktar - tarih - alici - Gonderici
+ */
