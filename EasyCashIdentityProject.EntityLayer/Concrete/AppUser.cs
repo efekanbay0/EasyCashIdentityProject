@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EasyCashIdentityProject.EntityLayer
+namespace EasyCashIdentityProject.EntityLayer.Concrete
 {
     public class AppUser : IdentityUser<int>
     {
         public string Name { get; set; }
         public string Surname { get; set; }
-        public string District { get; set; }
+        public string Distcrit { get; set; }
         public string City { get; set; }
         public string ImageUrl { get; set; }
     }
